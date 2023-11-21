@@ -1,0 +1,335 @@
+/*parte de las medias cueries*/
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3; /* Fondo más claro */
+        color: #333;
+        margin-left: 0;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em;
+        background-color: #00b894; /* Verde claro */
+        color: #fff;
+
+    }
+    
+    .logo {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        margin-right: 0px; /* Ajusta el espacio entre la imagen y el texto */
+        padding: 4px;
+        margin-left: 10px; /* Modificado para pantallas pequeñas */
+    }
+    
+    .header-content {
+        text-align: center;
+        margin-left: 100px; /* Modificado para pantallas pequeñas */
+        margin-right: 200px;
+    }
+    
+    nav {
+        display: none; /* Oculta el menú en pantallas pequeñas */
+        flex-direction: column; /* Apila los elementos verticalmente */
+        position: absolute;
+        top: 60px; /* Ajusta la posición del menú desplegable */
+        left: 0;
+        width: 100%;
+        background-color: #00b894;
+        text-align: center;
+
+    }
+
+    nav.show {
+        display: flex; /* Muestra el menú cuando se aplica la clase 'show' */
+    }
+
+    .menu-icon {
+        display: block; /* Muestra el icono de menú en pantallas pequeñas */
+        cursor: pointer;
+    }
+
+    nav a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .redes-sociales img {
+        width: 30px; /* Ajusta el tamaño de los íconos de redes sociales según tus necesidades */
+        margin-right: 0; /* Elimina el margen entre los íconos de redes sociales en pantallas pequeñas */
+        margin-bottom: 10px; /* Añade espacio entre los íconos de redes sociales en pantallas pequeñas */
+    }
+    
+    .lupa {
+        width: 30px; /* Ajusta el tamaño de la lupa según tus necesidades */
+        margin-right: 0; /* Elimina el margen entre la lupa y el campo de búsqueda en pantallas pequeñas */
+    }
+    
+    .buscador {
+        display: flex;
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos en pantallas pequeñas */
+        margin-top: 10px; /* Añade espacio entre el buscador y los enlaces en pantallas pequeñas */
+    }
+    
+    .buscador input {
+        padding: 8px;
+        margin-right: 0; /* Elimina el margen entre el campo de búsqueda y la lupa en pantallas pequeñas */
+        margin-bottom: 10px; /* Añade espacio entre el campo de búsqueda y los enlaces en pantallas pequeñas */
+    }
+
+    
+    section,
+    .separador,
+    #inicio,
+    #menu,
+    .separador2 {
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: -200px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 30px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: justify; /* Centra el texto en pantallas pequeñas */
+    }
+
+    #inicio{
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    .text1{
+        text-align: justify;
+    }
+
+    .galeria,
+    .imagen,
+    .img1 img,
+    .img2 img,
+    .img3 img,
+    .img4 img,
+    .pie-imagen11,
+    .ver-mas-recetas1,
+    .separador3 {
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: 0; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 30px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+
+    .pie-imagen11{
+        margin-left: 50px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-right: -90px;
+    }
+
+    .ver-mas-recetas1 {
+        margin-left: 50px; /* Ajusta el margen derecho en pantallas pequeñas */
+        margin-right: -400px;
+    }
+
+
+    #NuevasRecetas h2,
+    #NuevasRecetas p,
+    .galeria2,
+    .imagen,
+    .img5 img,
+    .img6 img,
+    .img7 img,
+    .img8 img,
+    .ver-mas-recetas3 {
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: -10px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 25px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+    #NuevasRecetas{
+        text-align: left;
+        margin-right: -200px;
+    }
+
+  
+
+    #NuevasRecetas p,
+    .text22{
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+    .ver-mas-recetas3 {
+        margin-right: 0; /* Ajusta el margen derecho en pantallas pequeñas */
+    }
+
+
+    #MasPopular h2,
+    #MasPopular p,
+    .galeria3,
+    .imagen,
+    .img9 img,
+    .img10 img,
+    .img11 img,
+    .img12 img,
+    .img13 img,
+    .img14 img,
+    .img15 img,
+    .img16 img,
+    .ver-mas-recetas3 {
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: -10px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 40px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+    
+    .img13 img,
+    .img14 img,
+    .img15 img,
+    .img16 img{
+        margin-left: 70px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+
+    }
+
+    #MasPopular {
+        text-align: left;
+        margin-right: -200px;
+    }
+
+    #MasPopular p,
+    .text33 {
+        margin-right: 0px;
+        text-align: justify;
+    }
+    
+    .rectangulo,
+    .rectangulo img,
+    .contenedor33,
+    .contenido,
+    .contenido h3,
+    .contenido p {
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: 5px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 30px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: justify; /* Centra el texto en pantallas pequeñas */
+    }
+
+    .rectangulo{
+        margin-right: -40px;
+        margin-left: 105px;
+
+    }
+   
+
+    .ver-mas-recetas1 {
+        margin-left: 50px; /* Ajusta el margen derecho en pantallas pequeñas */
+        margin-right: -400px;
+    }
+
+    .separador4 {
+        margin-right: 0; /* Ajusta el margen derecho en pantallas pequeñas */
+        margin-left: 100px; /* Ajusta el margen izquierdo en pantallas pequeñas */
+    }
+
+    #VentasYProductos h2,
+    #VentasYProductos p {
+        margin-right: 20px; /* Ajusta el margen derecho en pantallas pequeñas */
+        text-align: justify; /* Justifica el texto en pantallas pequeñas */
+    }
+    
+
+
+
+    #VentasYProductos h2,
+    #VentasYProductos p {
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: -60px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 100px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: center; /** Centra el texto en pantallas pequeñas */
+    }
+    #VentasYProductos {
+        text-align: left;
+        margin-right: -40px;
+    }
+
+    #VentasYProductos p,
+    .text33 {
+        margin-right: 0px;
+        text-align: justify;
+    }
+    
+    .galeria4 .contenedor1 .imagen,
+    .ver-mas-productos5 {
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: 100px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 205px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+    .pie-imagen12{
+        margin: 0; /* Elimina los márgenes en pantallas pequeñas */
+        margin-right: -60px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-left: 17px; /* Elimina el espacio entre la imagen y el texto en pantallas pequeñas */
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding: 10px; /* Ajusta el espacio interno en pantallas pequeñas según sea necesario */
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+
+
+    .ver-mas-productos5 {
+        margin-left: 50px; /* Ajusta el margen izquierdo en pantallas pequeñas */
+        margin-right: -400px; /* Ajusta el margen derecho en pantallas pequeñas */
+        margin-bottom: 20px;
+    }
+
+    .contacto {
+        margin-left: 100px; /* Ajusta el margen izquierdo para pantallas pequeñas */
+        padding: 1em; /* Ajusta el relleno para pantallas pequeñas */
+    }
+
+    .contenido-seccion {
+        max-width: 100%; /* Utiliza el ancho máximo disponible para pantallas pequeñas */
+    }
+
+    .contacto button {
+        margin: 10px auto; /* Ajusta el margen para el botón en pantallas pequeñas */
+        padding: 15px 18px; /* Ajusta el relleno del botón para pantallas pequeñas */
+        font-size: 14px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+    }
+
+    /* Otros ajustes según sea necesario */
+}
+
+/* Estilos originales */
+.contacto button .overlay {
+    transition: width 2s ease;
+}
+
+.contacto button:hover .overlay {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
