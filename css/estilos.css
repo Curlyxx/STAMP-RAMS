@@ -1,0 +1,731 @@
+*{
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;         /*ocupar todo el borde de la caja del navegador*/
+
+}
+
+/* Agrega estos estilos en tu archivo CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3; /* Fondo más claro */
+    color: #333
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1em;
+    background-color: #00b894; /* Verde claro */
+    color: #fff;   
+}
+
+.logo {
+    width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 15px; /* Ajusta el espacio entre la imagen y el texto */
+    padding: 4px;
+    margin-left: 100px;
+    
+}
+
+.header-content {
+    text-align: center;
+    margin-left: 20px; /* Ajusta el espacio entre la imagen y el texto */
+}
+
+h1 {
+    margin: 0; /* Elimina el margen superior del título para ajustarse a la imagen */
+}
+
+.sub {
+    margin: 0; /* Elimina el margen superior del subtítulo */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1; /* Permite que el menú ocupe todo el espacio disponible */
+    margin-left: 200px;
+    font-size: 24px;
+
+}
+
+
+nav a {
+    color: #333; /* Texto más oscuro */
+    text-decoration: none;
+    margin-right: 30px; /* Ajusta el espacio entre los enlaces */
+
+}
+
+.redes-sociales img {
+    width: 30px; /* Ajusta el tamaño de los íconos de redes sociales según tus necesidades */
+    margin-right: 10px; /* Ajusta el espacio entre los íconos de redes sociales */
+}
+
+.lupa {
+    width: 30px; /* Ajusta el tamaño de la lupa según tus necesidades */
+    margin-right: 10px; /* Ajusta el espacio entre la lupa y el campo de búsqueda */
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+}
+
+.buscador input {
+    padding: 8px;
+    margin-right: 5px; /* Ajusta el espacio entre el campo de búsqueda y la lupa */
+}
+
+/* Resto de tus estilos... */
+
+
+section {
+    text-align: center;
+    margin: -30px; /* Ajusta el margen superior e inferior */
+    margin-right: 350px; /* Ajusta el espacio entre la imagen y el texto */
+    padding: 1px;
+    margin-left: 300px;
+    position: relative;
+
+    
+}
+
+/* Estilos específicos para la sección #inicio */
+#inicio {
+    padding: 20px; /* Ajusta el espacio interno de la sección */
+    margin-top: 100px;
+    
+
+}
+#inicio h2 {
+    font-size: 36px; /* Ajusta el tamaño del título según tu preferencia */
+}
+#inicio p {
+    font-size: 18px; /* Ajusta el tamaño del párrafo según tu preferencia */
+}
+
+.separador {
+    border-top: 1.5px solid #3498db; /* Ajusta el color de la línea de separación según tu preferencia */
+    margin: 20px 0; /* Ajusta el margen superior e inferior de la línea de separación */
+    margin-right: 350px; /* Ajusta el espacio entre la imagen y el texto */
+    margin-left: 300px;
+}
+
+/* Estilos específicos para la sección #menu */
+#menu {
+    padding: 20px; /* Ajusta el espacio interno de la sección */
+    text-align: left;
+}
+#menu h2 {
+    font-size: 36px; /* Ajusta el tamaño del título según tu preferencia */
+}
+
+#menu p {
+    font-size: 18px; /* Ajusta el tamaño del párrafo según tu preferencia */
+}
+.separador2 {
+    border-top: 1.5px solid #3498db; /* Ajusta el color de la línea de separación según tu preferencia */
+    margin: 20px 0; /* Ajusta el margen superior e inferior de la línea de separación */
+    margin-right: 350px; /* Ajusta el espacio entre la imagen y el texto */
+    margin-left: 300px;
+}
+
+
+/*imagenes*********************************/
+
+/* Estilos específicos para las imágenes y su pie de página */
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto; /* Centra las imágenes */
+    position: relative;
+    margin-top: 24px;
+    margin-right: 180px;
+
+
+}
+
+.imagen {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    margin: 30px; /* Ajusta el espacio entre las imágenes */
+    text-align: center; /* Centra el pie de página */
+    align-items: center; /* Centra las imágenes verticalmente */
+    
+}
+
+.img1 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+
+}
+
+.img2 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+
+}
+
+.img3 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+}
+
+.img4 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+}
+
+.pie-imagen11 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: -60px;
+   
+}
+
+
+.ver-mas-recetas1 {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-right: 350px;
+
+}
+
+
+.enlace-destacado {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /* Otros estilos para el enlace según tus preferencias */
+    color: black;
+    
+
+}
+
+.destacado {
+    font-weight: bold;
+    text-decoration:underline;
+    /* Otros estilos para la parte destacada según tus preferencias */
+}
+
+
+
+.separador3 {
+    border-top: 1.5px solid #3498db; /* Ajusta el color de la línea de separación según tu preferencia */
+    margin: 20px 0; /* Ajusta el margen superior e inferior de la línea de separación */
+    margin-right: 350px; /* Ajusta el espacio entre la imagen y el texto */
+    margin-left: 300px;
+}
+
+#NuevasRecetas {
+    padding: 20px; /* Ajusta el espacio interno de la sección */
+    text-align: left;
+
+}
+#NuevasRecetas h2 {
+    font-size: 36px; /* Ajusta el tamaño del título según tu preferencia */
+}
+
+#NuevasRecetas p {
+    font-size: 18px; /* Ajusta el tamaño del párrafo según tu preferencia */
+}
+
+/*imagenes*22222********************************/
+
+/* Estilos específicos para las imágenes y su pie de página */
+.galeria2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -10px auto; /* Centra las imágenes */
+    margin-left: 10px;
+    margin-bottom: -30px;
+    margin-top: 24px;
+
+    
+
+
+}
+
+.imagen {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    margin: 40px; /* Ajusta el espacio entre las imágenes */
+    text-align: center; /* Centra el pie de página */
+    align-items: center; /* Centra las imágenes verticalmente */
+    
+
+}
+
+.img5 img,
+.img6 img,
+.img7 img,
+.img8 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+    margin-left: -80px;
+
+}
+
+.pie-imagen {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: -80px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+
+}
+
+
+.ver-mas-recetas3 {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-right: 350px;
+
+}
+
+
+.enlace-destacado3 {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /* Otros estilos para el enlace según tus preferencias */
+    color: black;
+
+}
+
+.destacado3 {
+    font-weight: bold;
+    text-decoration:underline;
+    /* Otros estilos para la parte destacada según tus preferencias */
+}
+
+/*tercer apartado*****************************************************/
+
+#MasPopular {
+    padding: 20px; /* Ajusta el espacio interno de la sección */
+    text-align: left;
+}
+#MasPopular h2 {
+    font-size: 36px; /* Ajusta el tamaño del título según tu preferencia */
+}
+
+#MasPopular p {
+    font-size: 18px; /* Ajusta el tamaño del párrafo según tu preferencia */
+}
+
+.galeria3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -10px auto; /* Centra las imágenes */
+    margin-left: -15px;
+    margin-bottom: -30px;
+
+}
+
+.imagen {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    margin: 40px; /* Ajusta el espacio entre las imágenes */
+    text-align: center; /* Centra el pie de página */
+    align-items: center; /* Centra las imágenes verticalmente */
+    margin-top: -20px;
+
+
+}
+.img9 img,
+.img10 img,
+.img11 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+    margin-left: -80px;
+    margin-top: -25px;    
+
+}
+
+.img13 img,
+.img14 img,
+.img15 img,
+.img16 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+    margin-left: -80px;
+
+}
+
+
+.img12 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+    margin-left: -80px;
+    margin-top: -25px;
+
+}
+.contenedor1, .contenedor2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto; /* Centra las imágenes */
+
+}
+
+.contenedor1 .imagen {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    margin: 40px; /* Ajusta el espacio entre las imágenes */
+    text-align: center; /* Centra el pie de página */
+    align-items: center; /* Centra las imágenes verticalmente */
+}
+
+.contenedor2 .imagen {
+    width: 260px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    margin: 10px; /* Ajusta el espacio entre las imágenes */
+    text-align: center; /* Centra el pie de página */
+
+}
+.pie-imagen1 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: -80px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+
+
+}
+
+
+.ver-mas-recetas4 {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-right: 00px;
+    margin-left: 800px;
+
+}
+
+
+.enlace-destacado4 {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /* Otros estilos para el enlace según tus preferencias */
+    color: black;
+
+}
+
+.destacado4 {
+    font-weight: bold;
+    text-decoration:underline;
+    /* Otros estilos para la parte destacada según tus preferencias */
+}
+
+
+.contenedor33 {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-right: 420px;
+    
+}
+
+.rectangulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid black; /* Azul claro */
+    background-color: #dfedf1; /* Gris claro */
+    margin-bottom: 50px;
+    
+
+    
+}
+
+.rectangulo img {
+    max-width: 280px; /* Ajusta el ancho máximo de la imagen según tu preferencia */
+    margin-right: 20px;
+}
+
+.contenido {
+    flex-grow: 1;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+.contenido h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    font-size: 16px;
+}
+
+
+
+
+.separador4 {
+    border-top: 1.5px solid #3498db; /* Ajusta el color de la línea de separación según tu preferencia */
+    margin: 20px 0; /* Ajusta el margen superior e inferior de la línea de separación */
+    margin-right: 0px; /* Ajusta el espacio entre la imagen y el texto */
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+
+.ver-mas-productos5 {
+    text-align: right;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 900px;
+    margin-bottom: 50px;
+
+}
+
+
+.enlace-destacado5 {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    /* Otros estilos para el enlace según tus preferencias */
+    color: black;
+
+}
+
+.destacado5 {
+    font-weight: bold;
+    text-decoration:underline;
+    /* Otros estilos para la parte destacada según tus preferencias */
+}
+
+
+
+#VentasYProductos {
+    padding: 20px; /* Ajusta el espacio interno de la sección */
+    text-align: left;
+    margin-left: 0px;
+
+}
+#VentasYProductos h2 {
+    font-size: 36px; /* Ajusta el tamaño del título según tu preferencia */
+}
+
+#VentasYProductos p {
+    font-size: 18px; /* Ajusta el tamaño del párrafo según tu preferencia */
+}
+
+
+.galeria4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -10px auto; /* Centra las imágenes */
+    margin-left: -15px;
+    margin-bottom: -30px;
+
+}
+
+.imagen {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    margin: 40px; /* Ajusta el espacio entre las imágenes */
+    text-align: center; /* Centra el pie de página */
+    align-items: center; /* Centra las imágenes verticalmente */
+    margin-top: -20px;
+
+
+}
+.img17 img,
+.img18 img,
+.img19 img,
+.img20 img {
+    width: 260px;
+    margin: 10px;
+    text-align: center; /* Centra el pie de página */
+    margin-left: 0px;
+    margin-top: -25px;    
+
+}
+
+
+.pie-imagen55 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: -50px;
+
+}
+
+/* parte del boton de llevar hasta arriba*/
+#scrollTopLink {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#333; /* Color de fondo del enlace */
+    color: #fff; /* Color del texto del enlace */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agrega una transición suave */
+}
+
+#scrollTopLink:hover {
+    background-color: #dfedf1; /* Cambia el color de fondo al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* parte de contacto, solo el recuadro de enviar mensajes*/
+
+.contacto button {
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid #fff;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px 22px;
+    font-size: 16px;
+    color:whitesmoke;
+    position: relative;
+    z-index: 10;
+    overflow: hidden; /* Oculta la barra de color inicialmente */
+}
+
+.contacto button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2ecc71; /* Verde más intenso */
+    z-index: -1;
+    transition: width 2s ease; /* Transición suave para la barra de color */
+}
+
+.contacto button:hover .overlay {
+    width: 100%;
+}
+
+
+/*parte de decoracion de contacto 2*/
+
+/* Agrega estos estilos en tu archivo CSS */
+
+.contacto {
+    background-color: #dfedf1;
+    padding: 2em;
+    text-align:justify;
+    border: 2px solid black; /* Azul claro */
+    align-items:center;
+    margin-left: 20px;
+    max-width: 550px;
+    margin-bottom: 100px;
+    margin-top: 35px;
+
+
+}
+
+
+
+.contenido-seccion {
+    max-width: 430px;
+    margin: 0 auto;
+    margin-left: 0px;
+    
+}
+
+.col {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    margin-bottom: 1em;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.contacto button:hover .overlay {
+    width: 100%;
+}
+
+
+.foot {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    text-align: center;
+    padding: 15px; /* Espaciado interno del footer */
+    width: 166%; /* Asegura que el footer ocupe todo el ancho de la ventana */
+    position:relative; /* Fija el pie de página en la parte inferior de la pantalla */
+    bottom: 0; /* Fija el pie de página en la parte inferior de la pantalla */
+    margin: 0 auto;
+    z-index: 1000;
+    margin-left: -30%;
+
+
+    display: block;
+}
+
+.foot p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo dentro del footer */
+}
+
+.foot a {
+    color: #fff; /* Color del enlace en el footer */
+    text-decoration: underline; /* Subrayado para indicar que es un enlace */
+}
+
